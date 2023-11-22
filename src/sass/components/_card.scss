@@ -1,0 +1,62 @@
+.card {
+  width: 100%;
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: var(--color-white);
+  box-shadow: 1rem 1.5rem 2.5rem rgba(#111827, 0.2);
+  transition: all 0.25s;
+  backface-visibility: hidden;
+  margin-bottom: 4rem;
+  &:hover {
+    background-color: var(--color-light);
+    transform: scale(1.01);
+  }
+
+  &__img-container {
+    height: 22rem;
+    flex-basis: 60%;
+    &__img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &__text-container {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+
+    &__name {
+      color: var(--color-text-gray);
+    }
+    &__description {
+      font-size: 1.4rem;
+      color: var(--color-text-gray-light);
+    }
+    &__category {
+      font-size: 1.2rem;
+      color: var(--color-text-gray-light);
+    }
+
+    &__btn-container {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+      &__btn {
+        text-decoration: none;
+      }
+      &__btn-heart {
+        border: none;
+        font-size: 1.6rem;
+        margin-right: 1rem;
+        transition: all 0.2s;
+        background-color: inherit;
+
+        &:active {
+          transform: scale(1.12);
+        }
+      }
+    }
+  }
+}

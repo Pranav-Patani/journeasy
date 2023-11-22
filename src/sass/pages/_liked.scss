@@ -1,0 +1,10 @@
+.section-liked{
+    padding: 5rem;
+    background-color: var(--color-white);
+    height: 75vh;
+    display: flex;
+
+    &__heading{
+        margin: auto;
+    }
+}

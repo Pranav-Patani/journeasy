@@ -1,0 +1,25 @@
+//Abstracts
+@import "./abstracts/mixins";
+
+//Base
+@import "./base/animations";
+@import "./base/base";
+@import "./base/typography";
+@import "./base/utilities";
+
+//Components
+@import "./components/loader";
+@import "./components/bg-video";
+@import "./components/buttons";
+@import "./components/card";
+
+//Layouts
+@import "./layouts/footer";
+@import "./layouts/nav-bar";
+
+//Pages
+@import "./pages/home";
+@import "./pages/places";
+@import "./pages/liked";
+@import "./pages/profile";
+@import "./pages/user-login";

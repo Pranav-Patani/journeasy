@@ -1,0 +1,40 @@
+:root {
+  --color-primary: #ea580c;
+  --color-primary-light: #fb923c;
+  --color-primary-dark: #c2410c;
+
+  --color-white: #fff7ed;
+  --color-light: #ffedd5;
+  --color-light-2: #fed7aa;
+
+  --color-text-dark: #431407;
+  --color-text-light: #7c2d12;
+
+  --color-text-gray: #292524;
+  --color-text-gray-dark: #1c1917;
+
+  --color-black: #0c0a09;
+
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px | 10px/16px = 62.5%
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 3rem;
+}
